@@ -1,4 +1,13 @@
 # Odyssey-Diffusion
+
+最开始是想搞个奥德赛的，后来想想不如搞dota，然后又搞了mbti；
+
+现在一合计，每个的小项目也就一个文件，不如全部放在一起；
+
+但这样虽然最合理的标题应该是Everything-diffusion、但还是用Odyssey-Diffusion吧～
+
+
+
 用stable diffusion和chatGPT绘制整个奥德赛故事的插图；
 
 This project is to use stable diffusion and chatGPT to draw a comic strip of the story of "Odyssey"
