@@ -58,22 +58,22 @@
 
 prompt
 
-1. STJ - The Inspector: Short hair, neat and clean suits or skirt suits, black, white, gray, beige.
-2. ISFJ - The Protector: Medium-length hair，soft waves hair, simple dresses，knitwear, beige, light pink, sky blue, brown.
-3. INFJ - The Counselor: Natural hair, flowing long hair, elegant long dresses, loose hoodies, deep purple, forest green, beige, light pink.
-4. INTJ - The Mastermind: Short hair, sleek suits, slim-fit pants, black, white, gray, dark blue.
-5. ISTP - The Craftsman: Medium-length hair, casual jeans, T-shirts, olive green, burgundy, khaki, navy.
-6. ISFP - The Composer: Soft hari, wavy hair, graceful long dresses, floral clothes, lavender, light yellow, soft pink, green.
-7. INFP - The Healer: Natural hair, soft long hair, flowing dresses, ruffled blouses, sky blue, light green, purple, light pink.
-8. INTP - The Architect: Short hair, simple black pants, sweatshirts, black, white, gray, dark blue.
-9. ESTP - The Dynamo: Natural medium-length hair, comfortable sports, casual wear, black, white, gray, beige.
-10. ESFP - The Performer: Vibrant medium-length hair, trendy clothes, accessories, bright colors, metallic gold and silver.
-11. ENFP - The Champion: Unique long hair, bright-colored dresses, shorts, bright colors, pink, red.
-12. ENTP - The Visionary: Stylish long hair, unique suits, hoodies, black, white, gray, deep red.
-13. ESTJ - The Supervisor: Short hair, traditional suits, formal dresses, black, white, gray, dark blue.
-14. ESFJ - The Provider: Short hair, delicate accessories, pretty dresses, pink, light yellow, light blue, green.
-15. ENFJ - The Teacher: Soft hari, natural medium-length hair, comfortable dresses, sweaters, beige, light pink, light yellow, light blue.
-16. ENTJ - The Commander: Short hair, formal suits, slim-fit pants, black, white, gray, dark blue.
+1. IsSTJ - The Inspector: Short hair, neat and clean suits or skirt suits, black, white, gray, beige.
+3. ISFJ - The Protector: Medium-length hair，soft waves hair, simple dresses，knitwear, beige, light pink, sky blue, brown.
+4. INFJ - The Counselor: Natural hair, flowing long hair, elegant long dresses, loose hoodies, deep purple, forest green, beige, light pink.
+5. INTJ - The Mastermind: Short hair, sleek suits, slim-fit pants, black, white, gray, dark blue.
+6. ISTP - The Craftsman: Medium-length hair, casual jeans, T-shirts, olive green, burgundy, khaki, navy.
+7. ISFP - The Composer: Soft hari, wavy hair, graceful long dresses, floral clothes, lavender, light yellow, soft pink, green.
+8. INFP - The Healer: Natural hair, soft long hair, flowing dresses, ruffled blouses, sky blue, light green, purple, light pink.
+9. INTP - The Architect: Short hair, simple black pants, sweatshirts, black, white, gray, dark blue.
+10. ESTP - The Dynamo: Natural medium-length hair, comfortable sports, casual wear, black, white, gray, beige.
+11. ESFP - The Performer: Vibrant medium-length hair, trendy clothes, accessories, bright colors, metallic gold and silver.
+12. ENFP - The Champion: Unique long hair, bright-colored dresses, shorts, bright colors, pink, red.
+13. ENTP - The Visionary: Stylish long hair, unique suits, hoodies, black, white, gray, deep red.
+14. ESTJ - The Supervisor: Short hair, traditional suits, formal dresses, black, white, gray, dark blue.
+15. ESFJ - The Provider: Short hair, delicate accessories, pretty dresses, pink, light yellow, light blue, green.
+16. ENFJ - The Teacher: Soft hari, natural medium-length hair, comfortable dresses, sweaters, beige, light pink, light yellow, light blue.
+17. ENTJ - The Commander: Short hair, formal suits, slim-fit pants, black, white, gray, dark blue.
 
 ### 男生、发型、穿搭、款式和颜色：
 
