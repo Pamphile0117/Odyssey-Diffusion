@@ -72,7 +72,7 @@ prompt
 13. ENTP - The Visionary: Stylish long hair, unique suits, hoodies, black, white, gray, deep red.
 14. ESTJ - The Supervisor: Short hair, traditional suits, formal dresses, black, white, gray, dark blue.
 15. ESFJ - The Provider: Short hair, delicate accessories, pretty dresses, pink, light yellow, light blue, green.
-16. ENFJ - The Teacher: Soft hari, natural medium-length hair, comfortable dresses, sweaters, beige, light pink, light yellow, light blue.
+16. ENFJ - The Teacher: Soft hair, natural medium-length hair, comfortable dresses, sweaters, beige, light pink, light yellow, light blue.
 17. ENTJ - The Commander: Short hair, formal suits, slim-fit pants, black, white, gray, dark blue.
 
 ### 男生、发型、穿搭、款式和颜色：
