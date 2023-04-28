@@ -1,0 +1,286 @@
+
+# MBTI十六型人格chat+diffusion
+
+### 十六型人格理论
+
+十六型人格理论，也被称为Myers-Briggs类型指标(MBTI)，是一种基于人格类型分类的心理学理论。该理论是根据瑞士心理学家荣格(Jung)的思想发展而来的，荣格认为人类有四种心理活动：思考、感觉、直觉和情感。
+
+基于这四种心理活动，MBTI将人格分为16种类型。每种类型都由四个字母表示，每个字母代表一个人格特征。这四个字母分别代表以下内容：
+
+1. 第一个字母表示个体的能量来源，是外向（E）还是内向（I）。
+2. 第二个字母表示个体对信息的收集方式，是通过感觉（S）还是直觉（N）。
+3. 第三个字母表示个体做决策的方式，是通过思考（T）还是情感（F）。
+4. 第四个字母表示个体处理外部世界的方式，是通过判断（J）还是知觉（P）。
+
+这些字母的不同组合形成了16种不同的人格类型，每种类型都有其独特的优点和缺点，可以用于了解自己和他人，以及提高人际交往能力、职场发展等方面的应用。
+
+注：具体的每一种翻译之前用chatGPT生成不太对，现在用这个网站的名字修改了一遍。
+https://www.16personalities.com/ch/%E7%B1%BB%E5%9E%8B%E6%8F%8F%E8%BF%B0
+
+### 十六种人格的一句话解释
+
+1. ISTJ - 物流师：注重实际，善于组织、规划和管理。他们非常负责任，细致、精确，但可能过于保守和固执。
+2. ISFJ - 守卫：关注他人的需要，有强烈的责任感和耐心。他们喜欢细节和组织，但也可能过于关注他人的需求而忽略自己的需要。
+3. INFJ - 提倡者：喜欢深度思考和洞察问题，具有强烈的价值观和使命感。他们往往对人类问题感兴趣，但可能因过于注重理想而失去现实感。
+4. INTJ - 建筑师：有很强的创新和分析能力，注重长期规划和战略。他们有强烈的自信和信念，但可能过于自我中心，难以与他人合作。
+5. ISTP - 鉴赏家：喜欢解决问题，具有很强的技术和机械天赋。他们善于适应，注重现实，但可能缺乏社交能力和创造性。
+6. ISFP - 探险家：敏感、善良，注重个人价值观和情感。他们有创造力，但可能太过依赖情感，难以处理冲突和压力。
+7. INFP - 调停者：对自我和他人都很关注，有强烈的内在感受和创造力。他们很理想化，但可能过于情绪化，难以面对现实。
+8. INTP - 思想家：喜欢探究问题，注重理论和洞察力。他们很有自信，但可能显得冷漠和傲慢。
+9. ESTJ - 管理者：实际、现实，有强烈的组织和管理能力。他们很有条理，但可能过于强调秩序和控制。
+10. ESFJ - 执政官：友善、合作，注重传统和社会规范。他们很有责任感和同理心，但可能过于注重他人的期望，难以表达自己的需求。
+11. ENFJ - 主人公：有很强的领导能力，注重他人的需求和感受。他们很有同情心和社交技巧，但可能过于牺牲自我，忽略自己的需要和愿望，有时可能过于强调和谐，难以处理冲突。
+12. ENTP - 辩论家：敏捷、聪明，善于应对挑战和变化。他们有很强的创新和分析能力，但可能过于注重事实和逻辑，忽略人情味和情感。
+13. ESTP - 企业家：注重行动和实践，勇敢、乐观。他们很好奇，喜欢冒险，但可能过于追求刺激和享乐，忽略后果和他人感受。
+14. ESFP - 表演家：热情、开朗，注重感官体验和社交活动。他们喜欢带动气氛，但可能过于依赖他人的赞许，难以面对挑战和负面情绪。
+15. ENFP - 竞选者：充满激情、想象力和创造力，对新事物充满好奇。他们很有同情心和人情味，但可能过于理想化，难以把理想付诸实践。
+16. ENTJ - 将军/指挥官：果断、自信，喜欢领导和掌控。他们注重长远规划和目标，有很强的组织和分析能力，但可能过于强调理性，忽略情感和人情味。
+
+### 女生、发型、穿搭、款式和颜色：
+
+prompt
+
+1. ISTJ - The Inspector: Short hair, neat and clean suits or skirt suits, black, white, gray, beige.
+2. ISFJ - The Protector: Medium-length hair，soft waves hair, simple dresses，knitwear, beige, light pink, sky blue, brown.
+3. INFJ - The Counselor: Natural hair, flowing long hair, elegant long dresses, loose hoodies, deep purple, forest green, beige, light pink.
+4. INTJ - The Mastermind: Short hair, sleek suits, slim-fit pants, black, white, gray, dark blue.
+5. ISTP - The Craftsman: Medium-length hair, casual jeans, T-shirts, olive green, burgundy, khaki, navy.
+6. ISFP - The Composer: Soft hari, wavy hair, graceful long dresses, floral clothes, lavender, light yellow, soft pink, green.
+7. INFP - The Healer: Natural hair, soft long hair, flowing dresses, ruffled blouses, sky blue, light green, purple, light pink.
+8. INTP - The Architect: Short hair, simple black pants, sweatshirts, black, white, gray, dark blue.
+9.  ESTP - The Dynamo: Natural medium-length hair, comfortable sports, casual wear, black, white, gray, beige.
+10.   ESFP - The Performer: Vibrant medium-length hair, trendy clothes, accessories, bright colors, metallic gold and silver.
+11. ENFP - The Champion: Unique long hair, bright-colored dresses, shorts, bright colors, pink, red.
+12. ENTP - The Visionary: Stylish long hair, unique suits, hoodies, black, white, gray, deep red.
+13. ESTJ - The Supervisor: Short hair, traditional suits, formal dresses, black, white, gray, dark blue.
+14. ESFJ - The Provider: Short hair, delicate accessories, pretty dresses, pink, light yellow, light blue, green.
+15. ENFJ - The Teacher: Soft hair, natural medium-length hair, comfortable dresses, sweaters, beige, light pink, light yellow, light blue.
+16. ENTJ - The Commander: Short hair, formal suits, slim-fit pants, black, white, gray, dark blue.
+
+
+###ChatGPT生成小红书文案
+ISTJ - 物流师
+
+ISTJ注重实际，善于组织、规划和管理。他们非常负责任，细致、精确，注重细节。他们也很有自律和条理性，善于按照计划行事。📝💼
+
+然而，ISTJ可能过于保守和固执。他们通常比较注重传统和常规，可能不太善于接受新的想法和变化。同时，他们也可能过于坚持自己的想法，缺乏灵活性。🤔😕
+
+ISTJ以组织和管理为特点，是非常优秀的实干家和规划者。他们善于组织、规划和管理各种事务，注重细节和精确度。他们也很有自律和条理性，可以按照计划有条不紊地行事。📦🌟
+
+如果你是ISTJ类型的人，要记得尝试接受新的想法和变化，发展自己的灵活性。与此同时，你也要继续发挥自己的组织和管理能力，成为一个优秀的实干家和规划者。💪🌟
+
+ ISFJ - 守卫
+
+ISFJ关注他人的需要，有强烈的责任感和耐心。他们喜欢细节和组织，通常会尽全力确保一切都按照计划进行。他们也很有同理心和体贴之心，善于满足他人的需求。🧡🌸
+
+然而，ISFJ也可能过于关注他人的需求而忽略自己的需要。他们可能会把他人的需求放在自己的需求之前，甚至会为了满足他人的需求而牺牲自己的时间和精力。🤔😕
+
+ISFJ以关注他人为特点，是非常优秀的责任感强者。他们善于关注他人的需求，有强烈的责任感和耐心。他们也很有同理心和体贴之心，善于满足他人的需求。🤝🌟
+
+如果你是ISFJ类型的人，要记得尝试关注自己的需求，不要忽略自己的时间和精力。与此同时，你也要继续发挥自己的责任感和同理心，成为一个优秀的关心他人的人。💪🌟
+
+
+
+INFJ - 提倡者
+
+INFJ喜欢深度思考和洞察问题，通常会花费很多时间去探索内心深处的想法和感受。他们也有强烈的价值观和使命感，往往会尝试为自己认为有意义的事情贡献自己的力量。🤝🌟
+
+然而，INFJ可能因过于注重理想而失去现实感。他们通常很关注人类问题和社会问题，但有时可能会忽略现实中的问题和挑战。同时，他们也可能过于注重自己的想法和观点，导致与他人的沟通不够顺畅。🤔😕
+
+INFJ具有深度思考和强烈价值观的使命感，是非常优秀的思考者和行动者。他们喜欢探究问题和解决问题，同时也有强烈的使命感和为他人服务的意愿。💭🌟
+
+如果你是INFJ类型的人，要记得尝试把自己的想法和观点分享给他人，并且尝试理解和尊重他人的不同想法。与此同时，你也要继续发挥自己的思考和行动能力，成为一个优秀的思考者和行动者。💪🌟
+
+
+
+INTJ - 建筑师
+
+大家好，今天我想和大家一起探索一下INTJ这种人格类型。INTJ是Myers-Briggs 16种人格类型中的一种，代表了一个富有创造力和策略思维的人。🧠
+
+INTJ通常具备很强的创新和分析能力，他们善于思考和解决复杂的问题。他们注重长期规划和战略，懂得如何制定目标并制定可行的计划来实现它们。📈📊
+
+INTJ也通常拥有强烈的自信和信念，他们相信自己的想法和方法可以带来成功。然而，他们也可能过于自我中心，难以与他人合作。在团队合作中，他们需要学会更好地沟通和倾听他人的意见和想法，以便更好地融入团队。🤝👥
+
+如果你是INTJ类型的人，要记得保持谦虚和开放，多与他人沟通交流。与此同时，你也要充分发挥自己的潜力，追求自己的目标和梦想。💪🌟
+
+ISTP - 鉴赏家
+
+ISTP喜欢解决问题，具有很强的技术和机械天赋。他们注重现实，善于适应各种环境和情况，喜欢实际行动。他们也很有独立性和自主性，喜欢独立思考和决策。💪🤔
+
+然而，ISTP可能缺乏社交能力和创造性。他们通常比较内向和专注于实际问题，可能不太善于和他人沟通和交流。同时，他们也可能缺乏创造性，过于注重实用性，可能会忽略一些更加创新的想法。🤔😕
+
+ISTP以技术和适应能力为特点，是非常优秀的实用主义者和问题解决者。他们善于适应各种情况和环境，具有很强的技术和机械天赋。他们也很有独立性和自主性，可以独立思考和决策。🔧🌟
+
+如果你是ISTP类型的人，要记得尝试发展自己的社交能力和创造性。与此同时，你也要继续发挥自己的技术和适应能力，成为一个优秀的实用主义者和问题解决者。💪🌟
+
+ISFP - 探险家
+
+ISFP通常喜欢解决问题，具有很强的技术和机械天赋。他们善于适应不同的环境和情境，注重现实和实际问题的解决。🧰🛠️
+
+然而，ISFP可能缺乏社交能力和创造性。他们通常不擅长表达情感，更喜欢通过行动来表达自己的想法和感受。在创造性方面，他们可能不如其他人格类型那么擅长想象和创新。🤔🧐
+
+ISFP喜欢挑战和冒险，他们享受探索未知的快感。他们喜欢尝试新事物，不断学习和成长。他们也很喜欢与朋友一起度过愉快的时光，尽管他们不太擅长社交。🌄🏍️
+
+如果你是ISTP类型的人，记得要保持开放和灵活，不断挑战自己，探索未知的世界。尝试与他人沟通交流，学会表达自己的情感和想法。🗣️💬
+
+
+
+
+
+INFP - 调停者
+
+INFP对自我和他人都很关注，有强烈的内在感受和创造力。他们喜欢独立思考，追求自己内心的想法和价值观。他们非常理想化，喜欢探索和发现自己的内心世界。📝💜
+
+然而，INFP可能过于情绪化，难以面对现实。他们通常很敏感，对他人的反应和评论非常在意。在面对挑战和困难时，他们可能会过于消极或者回避问题。🤔😔
+
+INFP非常擅长用文字和情感描绘自己的内心世界，喜欢与他人分享自己的感受和想法。他们注重美感和文学性，喜欢写诗、小说和日记等。📝💜
+
+如果你是INFP类型的人，要记得保持积极乐观，不要被自己的情绪所困扰，勇敢地面对现实。与此同时，你也要继续发挥自己的创造力和文学感，用文字和情感描绘自己的内心世界。🌸🌟
+
+
+
+
+
+INTP - 思想家
+
+INTP喜欢探究问题，注重理论和洞察力。他们善于发现问题的本质和关键点，通过深层次的思考和分析来解决问题。他们非常有计划性，懂得如何制定目标并制定可行的计划来实现它们。📚🧠
+
+然而，INTP可能显得冷漠和傲慢。他们通常比较内向，喜欢独立思考和分析，对于与人交流和社交活动可能不是很感兴趣。他们非常自信，但可能过于自我中心，缺乏与他人合作的能力。🤔😒
+
+INTP喜欢探索深层次的思考和分析，追求知识和智慧。他们喜欢解决复杂的问题，通过理论和逻辑来解决问题。他们也喜欢独立思考和创新，善于发现新的思路和方法。🔍🧠
+
+
+
+ESTJ - 管理者
+
+ESTJ通常实际、现实，喜欢通过组织和管理来掌控生活。他们注重实际问题的解决，善于制定计划和目标，以确保生活和工作的顺利进行。他们非常有条理，注重细节和完成任务。📝✅
+
+然而，ESTJ可能过于强调秩序和控制，对于不可预测的情况可能会感到焦虑和困惑。他们通常比较坚持自己的观点和方法，不太擅长接受新的观点和想法。🤔😕
+
+ESTJ喜欢用组织和规划来掌控生活，追求秩序和控制。他们善于管理人和事，有很强的领导能力。他们也非常喜欢挑战和竞争，喜欢追求成功和成就。💪🎯
+
+如果你是ESTJ类型的人，要记得保持开放和灵活，学会接受新的观点和想法。与此同时，你也要继续发挥自己的组织和管理能力，用规划和执行来掌控生活和工作。🌟👨‍💼
+
+
+
+ESFJ - 执政官
+
+ESFJ通常友善、合作，注重传统和社会规范。他们喜欢与他人交流，通过与他人互动来感受世界。他们非常有责任感和同理心，喜欢帮助他人，关心他人的需求和感受。👥💕
+
+然而，ESFJ可能过于注重他人的期望，难以表达自己的需求和想法。他们通常比较内向，不善于表达自己的情感和需求，可能会过于牺牲自己的利益和需求。🤔😕
+
+ESFJ以友善和同理心为基础，是非常善于社交的人。他们注重传统和社会规范，喜欢维护社会秩序和平衡。他们也非常注重家庭和朋友，是非常好的主人和组织者。🏠👨‍👩‍👧‍👦
+
+如果你是ESFJ类型的人，要记得不要过于牺牲自己的需求和利益，要学会表达自己的想法和情感。与此同时，你也要继续发挥自己的友善和同理心，成为一个好的社交领袖和组织者。🌟💖
+
+
+
+
+
+ENFJ - 主人公
+
+ENFJ通常有很强的领导能力，注重他人的需求和感受。他们善于倾听和理解他人，非常有同情心和社交技巧，擅长与他人沟通和交流。他们也非常注重团队合作和协作，善于协调冲突和矛盾。🤝👨‍👩‍👧‍👦
+
+然而，ENFJ可能过于牺牲自我，忽略自己的需要和愿望。他们通常比较关注他人的需求和感受，可能会过于强调和谐，难以处理冲突和压力。他们需要学会保持平衡，同时关注自己和他人的需要。🤔😕
+
+ENFJ以同情心和领导力为特点，是非常善于帮助他人成长的人。他们注重他人的需求和感受，善于激励和启发他人。他们也喜欢通过教育和指导来帮助他人，成为他人的榜样和导师。🌟📚
+
+如果你是ENFJ类型的人，要记得保持平衡，同时关注自己和他人的需求。与此同时，你也要继续发挥自己的同情心和领导力，帮助他人成长和进步。👨‍👩‍👧‍👦💖
+
+ENTP - 辩论家
+
+ENTP通常敏捷、聪明，善于应对挑战和变化。他们有很强的创新和分析能力，喜欢探索新的想法和方法。他们也非常善于辩论和挑战现状，喜欢尝试新的观点和思路。💪💡
+
+然而，ENTP可能过于注重事实和逻辑，忽略人情味和情感。他们通常比较理性和思考，可能会过于关注事实和逻辑，缺乏人情味和情感。🤔😕
+
+ENTP以敏捷和创新为特点，是非常优秀的挑战者和创新者。他们注重创新和分析，善于探索新的想法和方法。他们也非常善于辩论和挑战现状，可以带来新的思路和观点。💬🌟
+
+如果你是ENTP类型的人，要记得注重人情味和情感，不要过于注重事实和逻辑。与此同时，你也要继续发挥自己的敏捷和创新，成为一个优秀的挑战者和创新者。💪💡
+
+
+
+ESTP - 企业家
+
+ESTP通常注重行动和实践，喜欢探索和冒险。他们很好奇，喜欢尝试新事物和挑战，对于未知的事物充满了好奇心和探索欲。他们也非常乐观，喜欢尝试不同的可能性。🚀🌟
+
+然而，ESTP可能过于追求刺激和享乐，忽略后果和他人感受。他们通常比较冲动和直率，可能会做出一些冲动的决定，缺乏考虑后果和他人的感受。🤔😕
+
+ESTP以勇敢和实践为特点，是非常优秀的冒险家和探险家。他们注重行动和实践，善于处理各种挑战和困境。他们也非常勇敢和自信，可以带领团队不断向前。🌄👊
+
+如果你是ESTP类型的人，要记得考虑后果和他人的感受，不要过于追求刺激和享乐。与此同时，你也要继续发挥自己的勇敢和实践，成为一个优秀的冒险家和领袖。🌟🔥
+
+
+
+ESFP - 表演家
+
+ESFP通常注重感官体验和社交活动，喜欢享受生活和带动气氛。他们非常热情和开朗，擅长与他人建立联系和交流。他们也非常注重感官体验，喜欢享受美食、音乐、艺术等方面的乐趣。🍔🎵
+
+然而，ESFP可能过于依赖他人的赞许，难以面对挑战和负面情绪。他们通常比较情感化和敏感，可能会过于关注他人的反应和评价，忽略自己的内心感受。🤔😕
+
+ESFP以热情和开朗为特点，是非常优秀的社交达人和表演家。他们善于带动气氛和调动他人的情绪，擅长与他人建立联系和交流。他们也非常注重感官体验，可以为他人带来愉悦和享受。🌟🎉
+
+如果你是ESFP类型的人，要记得保持自信和独立，不要过于依赖他人的赞许。与此同时，你也要继续发挥自己的热情和开朗，成为一个优秀的社交达人和表演家。🎭👨‍🎤
+
+
+
+ENFP - 竞选者
+
+ENFP通常充满激情、想象力和创造力，对于新事物充满好奇和探索欲。他们很有同情心和人情味，善于理解和关注他人的感受和需求。他们也非常乐观和开朗，喜欢尝试不同的可能性。🌟😄
+
+然而，ENFP可能过于理想化，难以把理想付诸实践。他们通常比较情感化和理想化，可能会过于关注理想和幻想，缺乏实际行动。🤔😕
+
+ENFP以激情和想象力为特点，是非常优秀的创造者和创新者。他们注重创意和创新，善于想象和探索新的可能性。他们也非常有同情心和人情味，可以为他人带来安慰和支持。🌈🌟
+
+如果你是ENFP类型的人，要记得将理想付诸实践，不要过于沉迷于理想和幻想。与此同时，你也要继续发挥自己的激情和想象力，成为一个优秀的创造者和领袖。🌟🎨
+
+
+
+
+
+ENTJ - 将军/指挥官
+
+ENTJ通常注重长远规划和目标，有很强的组织和分析能力。他们喜欢领导和掌控，擅长制定计划和目标来实现他们的愿望。他们通常非常果断和自信，对于未知的风险也能够迎刃而解。📊🤝
+
+然而，ENTJ可能过于强调理性，忽略情感和人情味。他们通常比较理智和冷静，喜欢依靠逻辑和事实来做出决策，可能会过于强调效率和结果，缺乏关注他人的情感和需求。🤔😕
+
+ENTJ以果断和自信为特点，是非常优秀的领导者。他们善于制定长远目标和计划，注重组织和分析能力。他们也非常擅长领导和掌控，可以激励和启发他人。💼👨‍💼
+
+如果你是ENTJ类型的人，要记得保持开放和灵活，学会倾听和理解他人的情感和需求。与此同时，你也要继续发挥自己的果断和自信，成为一个优秀的领导者和组织者。🌟💪
+
+
+
+### 男生、发型、穿搭、款式和颜色：
+
+1. ISTJ - 守序肯定型：短发，整洁利落的西装或衬衫裤装，黑色、白色、灰色、棕色。
+2. ISFJ - 守序仁慈型：自然的中长发，简约舒适的毛衣和长裤，灰色、米色、深蓝色、深绿色。
+3. INFJ - 悦纳型：自然飘逸的长发或中长发，搭配精致的衣服和配饰，深紫色、深绿色、白色、灰色。
+4. INTJ - 架构师型：短发或中长发，利落的西装或休闲装，黑色、白色、灰色、深蓝色。
+5. ISTP - 冒险家型：短发或中长发，休闲的牛仔裤和T恤，深蓝色、黑色、白色、灰色。
+6. ISFP - 美学型：自然的中长发，休闲的牛仔裤和T恤或花纹衬衫，深蓝色、棕色、灰色、深绿色。
+7. INFP - 梦想家型：自然飘逸的长发，宽松的卫衣或连帽衫，深蓝色、灰色、深紫色、深绿色。
+8. INTP - 思考者型：短发或中长发，舒适的休闲裤装和T恤或卫衣，黑色、白色、灰色、深蓝色。
+9. ESTP - 实用主义者型：自然的中长发，舒适的休闲裤装和T恤或卫衣，黑色、白色、灰色、棕色。
+10. ESFP - 表演者型：鲜艳的中长发，时尚的休闲装或运动装，亮色系、鲜艳色彩、金色、银色。
+11. ENFP - 公关型：自然飘逸的长发，休闲的短裤和T恤或衬衫，鲜艳色彩、亮色系、粉色、紫色。
+12. ENTP - 挑战者型：独特时尚的长发，搭配修身的西装或休闲装，黑色、白色、灰色、深红色。
+13. ESTJ - 管理者型：短发，整齐干净的西装或正装裤，黑色、白色、灰色、深蓝色。
+14. ESFJ - 供给者型：短发，精致的配饰和漂亮的衬衫或裤装，粉色、淡黄色、淡蓝色、绿色。
+15. ENFJ - 教导者型：柔软自然的中长发，舒适的连衣裙或毛衣，米色、淡粉色、浅黄色、淡蓝色。
+16. ENTJ - 指挥官型：短发，正式的西装或修身的裤装，黑色、白色、灰色、深蓝色。
+
+1. ISTJ - The Inspector: Short hair, neat and clean suits or dress pants, black, white, gray, brown.
+2. ISFJ - The Protector: Natural medium-length hair, simple and comfortable sweaters and trousers, gray, beige, dark blue, dark green.
+3. INFJ - The Counselor: Natural and flowing long hair or medium-length hair, with exquisite clothes and accessories, deep purple, deep green, white, gray.
+4. INTJ - The Mastermind: Short hair or medium-length hair, sleek suits or casual wear, black, white, gray, dark blue.
+5. ISTP - The Craftsman: Short hair or medium-length hair, casual jeans and T-shirts, navy, black, white, gray.
+6. ISFP - The Composer: Natural medium-length hair, casual jeans and T-shirts or patterned shirts, dark blue, brown, gray, dark green.
+7. INFP - The Healer: Natural and flowing long hair, loose hoodies or hooded shirts, dark blue, gray, deep purple, dark green.
+8. INTP - The Architect: Short hair or medium-length hair, comfortable casual pants and T-shirts or sweatshirts, black, white, gray, dark blue.
+9. ESTP - The Dynamo: Natural medium-length hair, comfortable casual pants and T-shirts or sweatshirts, black, white, gray, brown.
+10. ESFP - The Performer: Vibrant medium-length hair, trendy casual or sportswear, bright colors, metallic gold and silver.
+11. ENFP - The Champion: Natural and flowing long hair, casual shorts and T-shirts or shirts, bright colors, pink, purple.
+12. ENTP - The Visionary: Stylish long hair, paired with slim-fit suits or casual wear, black, white, gray, deep red.
+13. ESTJ - The Supervisor: Short hair, neat and clean suits or formal pants, black, white, gray, dark blue.
+14. ESFJ - The Provider: Short hair, delicate accessories and pretty shirts or dress pants, pink, light yellow, light blue, green.
+15. ENFJ - The Teacher: Soft and natural medium-length hair, comfortable dresses or sweaters, beige, light pink, light yellow, light blue.
+16. ENTJ - The Commander: Short hair, formal suits or slim-fit pants, black, white, gray, dark blue.
